@@ -1,0 +1,118 @@
+body{
+    border: none;
+}
+.header{
+    background-color: rgb(69, 18, 253);
+    
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.header h5{
+    padding: 15px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding: 5px;
+}
+.content{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.content form{
+    width: 65%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 25px;
+    background-color: rgb(221, 221, 221);
+    color: white;
+    border-radius: 7px;
+    
+}
+.content form marquee{
+    margin: 0 auto;
+    width: 75%;
+    display: block;
+    color: #000;
+}
+.content table{
+    margin: 0 auto;
+}
+.content table textarea{
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding: 7px;
+    padding-left: 10px;
+    position: relative;
+    padding-top: 10px;
+    
+}
+.content table span{
+    font-weight: bold;
+    color: black;
+}
+.content table input[type=text]{
+    border-radius: 7px;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    max-width: 225px;
+    border: 1px solid rgb(185, 185, 185);
+}
+.content table button[type=submit]{
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    width: 75%;
+    max-width: 150px;
+}
+.content table button[type=reset]{
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    width: 75%;
+    max-width: 150px;
+}
+.content table button[type=submit]:hover{
+    background-color: rgb(16, 168, 16);
+    color: white;
+    border: none;
+}
+.content table button[type=reset]:hover{
+    background-color: rgb(230, 50, 50);
+    color: white;
+    border: none;
+}
+.content table select{
+    padding: 5px;
+    border-radius: 7px;
+    outline: none;
+    padding-bottom: px;
+    margin-top: 1px;
+}
+.character{
+    float: right;
+    margin-left: 10px;
+
+}
+.len{
+    float: right;
+    color: blue;
+}
+.hide{
+    display: none;
+    
+}
+.error{
+    display: inline-block;
+    margin-left: 5px;
+}
+.show{
+    display: inline-block;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h4 style="text-align: center;">  Welcome !</h4>
+        <div class="header">
+            <h5>Simple Massage System</h5>
+        </div>
+        <div class="content">
+            <form action="" method="post">
+                <marquee><p>* One Massage = 100 Character || 5 Massage At  A Time *</p></marquee>
+                <table>
+                    <tr >
+                        <td style="width: 15%;height: 50px;">
+                            <span>Phone No </span>
+                        </td>
+                        <td style="width: 5%;">
+                            <span>:</span>
+                        </td>
+                        <td>
+                            <select name="" id="" >
+                                <option value="">+880</option>
+                            </select>
+                        </td>
+                        <td style="width: 70%;">
+                            <input type="text" maxlength="11" name="" placeholder="To " id="">
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            <span>Massage</span> 
+                        </td>
+                        <td>
+                            <span>:</span>
+                        </td>
+                        <td  colspan="2">
+                            <span class="character"> Character</span><span class="len" style="font-weight: 500; color: blue;">00</span>
+                            <textarea name="" maxlength="999" id="textarea"  rows="5" placeholder="Type Massage"></textarea>
+                            <span >Total Massage : </span><span class="massage">00 </span>
+                        </td>
+                    </tr>
+                    
+                    <tr style="margin-top: 100px;">
+                        <td>
+
+                        </td>
+                        <td>
+
+                        </td>
+                        <td style="padding-top: 20px;"  colspan="2">
+                            <button class="show" type="submit">Send</button>
+                            <button onclick="return  confirm('Are You Sure ?')" type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="footer">
+            <p>&copy2020|All Rights Reserved.</p>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
